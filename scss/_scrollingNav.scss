@@ -134,15 +134,14 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
 /*    padding-top: 150px;*/
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 150px;
     text-align: center;
     background: #eee;
 }
+
 @media(min-width:1200px) {
     textarea {
         height: 236px !important;
@@ -167,7 +166,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 @media(min-width:1200px) {
-    .services-section, .pricing-section {
+    .services-section, .pricing-section, .about-section {
         padding-top: 150px;
         padding-bottom: 80px;
     }
@@ -179,7 +178,7 @@ of those sections to manage the look and feel of the site. */
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .services-section, .pricing-section {
+    .services-section, .pricing-section, .about-section {
         padding-top: 80px;
         padding-bottom: 40px;
     }
