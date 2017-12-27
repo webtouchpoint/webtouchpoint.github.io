@@ -5807,9 +5807,9 @@ html {
   width: 100%;
   height: 100%; }
 
-/*.navbar-custom {
-    background-color: #000;
-}*/
+.navbar-custom {
+  background-color: #000; }
+
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
