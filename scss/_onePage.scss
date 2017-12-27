@@ -15,12 +15,20 @@
 }
 
 .headline h1, h2 {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .headline h1 {
     font-size: 100px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    // background: #fff;
+    //background: rgba(255,255,255,0.9);   
+}
+.headline h1 a {
+    text-decoration: none;
+    z-index: 10;
+    color: #fff;
+    margin: 0;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .headline h2 {
@@ -154,7 +162,7 @@ footer {
     }
 
     .headline h1 {
-        font-size: 60px;
+        font-size: 26px;
     }
 
     .headline h2 {
